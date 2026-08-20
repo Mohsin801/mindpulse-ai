@@ -71,9 +71,7 @@ Recall is prioritized over precision by design — for a mental-health screening
 
 ## Dataset
 
-This project uses the [Kaggle Playground Series S4E11 — "Exploring Mental Health Data"](https://www.kaggle.com/competitions/playground-series-s4e11) dataset, covering demographics, academic/work pressure, sleep, diet, financial stress, and satisfaction. It is not included in this repository — download `train.csv` from the competition page (a free Kaggle account is required) and place it in the project root before running the notebook.
-
-Symptom-based columns (e.g. disclosed suicidal ideation) are excluded during preprocessing to avoid target leakage.
+This project uses the ["Exploring Mental Health Data" dataset by Adil Shamim on Kaggle](https://www.kaggle.com/datasets/adilshamim8/exploring-mental-health-data), covering demographics, academic/work pressure, sleep, diet, financial stress, and satisfaction. It is not included in this repository — download `train.csv` from the link and place it in the project root before running the notebook.
 
 ## License
 
